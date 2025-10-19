@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class OpenAIService {
   static const String baseUrl = 'https://api.openai.com/v1';
-  static const String apiKey = 'change your api key here';
+  static const String apiKey = 'openAI API key here';
 
   static Future<String> getEphemeralToken() async {
     try {
